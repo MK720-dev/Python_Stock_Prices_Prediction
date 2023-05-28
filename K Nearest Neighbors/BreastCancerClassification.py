@@ -16,6 +16,7 @@ y = np.array(df['class'])
 #create training and testing sets 
 X_train, X_test, y_train, y_test =  train_test_split(X,y, test_size=0.2)
 
+#Create the K Nearest Neighbors classifier, train and test it
 clf = neighbors.KNeighborsClassifier()
 clf.fit(X_train, y_train)
 accuracy = clf.score(X_test, y_test)
