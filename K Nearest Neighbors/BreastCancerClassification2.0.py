@@ -6,6 +6,25 @@ import pandas as pd
 import random
 
 df = pd.read_csv(r'C:\Users\kchao\OneDrive\Documents\Dossier Malek\ML with Python\K Nearest Neighbors\breast-cancer-wisconsin.data')
+df.replace('?', -99999, inplace=True)
+df.drop(['id'], axis=1, inplace=True)
+
+#some values in the dataframe are coming in with quotes
+#we have to make sure all values are floats, then we convert the dataframe to a list of list 
+full_data = df.astype(float).values.tolist()
+random.shuffle(full_data) 
+
+#create our training and testing sets 
+test_size = 0.2
+train_set = {2:[], 4:[]}
+test_set = {2:[], 4:[]}
+train_data = full_data[:-int(test_size*len(full_data))]
+test_data = full_data[-int(test_size*len(full_data)):]
+
+for i in train_data:
+    train_set[i[-1]].append(i[:-1])
+for i in test_data:
+    test_set[i[-1]].append(i[:-1])
 
 def k_nearest_neighbors(data, predict, k=3):
     if len(data) >= k:
@@ -16,8 +35,22 @@ def k_nearest_neighbors(data, predict, k=3):
             euclidean_distance = np.linalg.norm(np.array(predict)-np.array(features))
             distances.append([euclidean_distance, group])
     votes = [i[1] for i in sorted(distances)[:k]]
-    print(Counter(votes).most_common(1))
+    #print(Counter(votes).most_common(1))
     vote_result = Counter(votes).most_common(1)[0][0]
     return vote_result 
+
+correct = 0
+total = 0
+
+for group in test_set:
+    for data in test_set[group]:
+        vote = k_nearest_neighbors(train_set, data, k=5)
+        if group == vote:
+            correct += 1
+        total += 1
+
+print('Accuracy: ', correct/total )
+
+
 
 
