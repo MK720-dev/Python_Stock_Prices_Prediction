@@ -16,6 +16,8 @@ For simplicity reasons I will only include the first five lines of the dataset i
 
 This is how the dataset initially looked like: 
 
+![Google_dataset1](https://github.com/MK720-dev/Machine-Learning-with-Python-Concepts-and-Applications/assets/78389944/9392e684-5444-4e05-aeac-01ca7e33dfbb)
+
 
 
 
