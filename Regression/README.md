@@ -1,5 +1,14 @@
 ## Linear Regression: 
 
+<!--
+*** Markdown
+*** coding: utf-8
+*** Author: Malek Kchaou
+*** Date: 05-28-2023 
+*** Last Modified time: 05-29-2023
+*** Last Modified by: Malek Kchaou 
+ -->
+
 In this folder, there are two main source code files:
   * StockPrediction.py
   * LinearRegressionAlgorithm.py
