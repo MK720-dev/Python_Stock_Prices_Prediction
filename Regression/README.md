@@ -8,11 +8,12 @@
 -->
 
 ## Linear Regression: 
----
 
 In this folder, there are two main source code files:
   * StockPrediction.py
   * LinearRegressionAlgorithm.py
+
+---
 
 ### <ins>StockPrediction.py</ins>
 
