@@ -101,8 +101,8 @@ The fucntion returns two numpy arrays one for the x values and one for the y val
 #### Training and Testing 
 
 The best fit line's formula is **y=mx+b**, with:
-  - **Slope:** m = $$(\bar{x} \bar{y}) - \bar{xy}) \over (\bar{x}^2 - \bar{x^2})$$
-  - **y-intercept:** b = $$(\bar{y} - m\bar{x})$$
+  - **Slope:** $$m = (\bar{x} \bar{y}) - \bar{xy}) \over (\bar{x}^2 - \bar{x^2})$$
+  - **y-intercept:** $$(b = \bar{y} - m\bar{x})$$
 
 
 
