@@ -79,7 +79,31 @@ Here's the final plot of the Adjusted Close prices (feature), label and the fore
 
 ### <ins>LinearRegressionAlgorithm.py</ins>
 
+This file contains a single variable linear regression model coded from scratched. 
+The model is based on the best fit line formula. 
 
+#### Dataset 
+
+I created my own **randomly generated dataset** to train and test the linear model using the **create_dataset** function.
+
+```
+def create_dataset(hm, variance, step=2, correlation=False):
+```
+
+The parameters used during the dataset creation are the following:
+ - hm --> how many data points do you want 
+ - variance --> how variable do you want this dataset to be
+ - step --> how far on average to step up the y value 
+ - correlation --> do you want the data to be correlated positively or negatively or just not correlated at all 
+
+The fucntion returns two numpy arrays one for the x values and one for the y values. 
+
+#### Training and Testing 
+
+The best fit line's formula is **y=mx+b**, with:
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+  - **Slope:** m = $$(\bar{x} \bar{y}) - /bar{xy}) \over (/bar{x}^2 - /bar{x^2})$$
+  - **y-intercept:** b = 
 
 
 
