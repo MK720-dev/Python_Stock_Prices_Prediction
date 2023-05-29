@@ -101,9 +101,8 @@ The fucntion returns two numpy arrays one for the x values and one for the y val
 #### Training and Testing 
 
 The best fit line's formula is **y=mx+b**, with:
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-  - **Slope:** m = $$(\bar{x} \bar{y}) - /bar{xy}) \over (/bar{x}^2 - /bar{x^2})$$
-  - **y-intercept:** b = 
+  - **Slope:** m = $$(\bar{x} \bar{y}) - \bar{xy}) \over (\bar{x}^2 - \bar{x^2})$$
+  - **y-intercept:** b = $$(\bar{y} - m\bar{x})$$
 
 
 
