@@ -108,7 +108,7 @@ The best fit line's formula is **y=mx+b**, with:
 
 ##### Testing:
 
-I used the r squared method to test the accuracy of the best fit line. This method makes use of the squared error formula:
+I used the **r squared** method to test the accuracy of the best fit line. This method makes use of the **squared error (SE)** formula:
 In fact, 
 
 $$r^2 = \left(1 - \left(SE_{\hat{y}} \over SE_{\bar{y}}\right) \right)$$
