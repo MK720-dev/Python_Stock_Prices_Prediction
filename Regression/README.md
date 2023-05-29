@@ -100,9 +100,18 @@ The fucntion returns two numpy arrays one for the x values and one for the y val
 
 #### Training and Testing 
 
+##### Training: 
+
 The best fit line's formula is **y=mx+b**, with:
   - **Slope:** $$m = \left(\bar{x} \bar{y} - \bar{xy} \over \bar{x}^2 - \bar{x^2}\right)$$
   - **y-intercept:** $$b = \bar{y} - m\bar{x}$$
+
+##### Testing:
+
+I used the r squared method to test the accuracy of the best fit line. This method makes use of the squared error formula:
+In fact, 
+
+$$m = r^2 = \left(1 - (SE_{\hat{y}} \over SE_{\bar{y}}) \right)$$
 
 
 
