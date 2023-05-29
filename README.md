@@ -1,5 +1,5 @@
 # Machine-Learning-with-Python-Concepts-and-Applications
-![]((https://img.shields.io/badge/Author-Malek%20Kchaou-yellow.svg) ![](https://img.shields.io/github/license/MK720-dev/Machine-Learning-with-Python-Concepts-and-Applications) ![](https://img.shields.io/badge/Python-%3E%3D3.10.11-blue.svg)
+![](https://img.shields.io/badge/Author-Malek%20Kchaou-yellow.svg) ![](https://img.shields.io/github/license/MK720-dev/Machine-Learning-with-Python-Concepts-and-Applications) ![](https://img.shields.io/badge/Python-%3E%3D3.10.11-blue.svg)
 
 This personal repository contains python codes for common Machine Learning algorithms and examples of their real life applications. 
 * Algorithms covered are:
