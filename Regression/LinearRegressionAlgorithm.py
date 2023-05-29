@@ -14,7 +14,7 @@ style.use('fivethirtyeight')
 #hm --> how many data points do you want 
 #variance --> how variable do you want this dataset to be
 #step --> how far on average to step up the y value 
-#correslation --> do you want the data to be correlated positively or negatively or just not correlated at all 
+#correlation --> do you want the data to be correlated positively or negatively or just not correlated at all 
 def create_dataset(hm, variance, step=2, correlation=False):
     val = 1
     ys = []
