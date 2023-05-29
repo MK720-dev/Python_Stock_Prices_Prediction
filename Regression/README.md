@@ -116,6 +116,8 @@ $$r^2 = \left(1 - \left(SE_{\hat{y}} \over SE_{\bar{y}}\right) \right)$$
 where **y hat** is represents the predicted values and **y bar** is the mean of the dataset. 
 
 $$SE_{\hat{y}} = \sum(y - \hat{y})^2$$
+and
+$$SE_{\bar{y}} = \sum(y - \bar{y})^2$$
 
 
 
