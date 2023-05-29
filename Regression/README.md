@@ -50,7 +50,7 @@ So the features used for training and testing were dating from 08-19-2004 to 11-
 
 After adjusting the dataset and adding the 'label' column, this what the newly generated dataset looked like:
 
-![google_dataset2](https://github.com/MK720-dev/Machine-Learning-with-Python-Concepts-and-Applications/assets/78389944/6d372e21-184f-4955-98ca-2c890d4b9d47)
+![google_dataset2](https://github.com/MK720-dev/Machine-Learning-with-Python-Concepts-and-Applications/blob/main/Regression/Images/google_dataset2.png)
 
 **Important:** --> It is also important to note that missing data was dealt with by setting eveyr NaN value to -99999 which makes it automatically seen as an outlier by the linear regression model
                --> Features were also rescaled and normalized to have values between -1 and 1
