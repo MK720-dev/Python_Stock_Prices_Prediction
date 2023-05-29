@@ -46,7 +46,7 @@ I chose the Adjusted Close price **'Adj. Close'**, the High Low Percentage **'HL
 As for the the labels that were used to train the model, I went for the Adjusted Close price 'Adj. Close' in 343 days. 
 I **dropped** data samples that will be used in the predictions which represented the last 343 days of the original dataset. What we were left with was then used for training and testing.  
 
-> So the features used for training and testing were dating from 08-19-2004 to 11-10-2016 and the labels from 11-11-2016 to 03-27-2018**
+So the features used for training and testing were dating from 08-19-2004 to 11-10-2016 and the labels from 11-11-2016 to 03-27-2018**
 
 After adjusting the dataset and adding the 'label' column, this what the newly generated dataset looked like:
 
