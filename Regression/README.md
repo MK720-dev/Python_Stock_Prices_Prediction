@@ -71,7 +71,7 @@ Predictions were made based on features dating from **11-11-2016 to 10-18-2017**
 
 Here's the final plot of the Adjusted Close prices (feature), label and the forecast results:
 
-![final_plot](https://github.com/MK720-dev/Machine-Learning-with-Python-Concepts-and-Applications/assets/78389944/961acb78-916d-4f98-8c3b-49db5461a47b)
+![final_plot](https://github.com/MK720-dev/Machine-Learning-with-Python-Concepts-and-Applications/blob/main/Regression/Images/final_plot.png)
 
 **Important:** note that label and forecast graphs are squished back by 343 days
 
