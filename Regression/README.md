@@ -121,8 +121,7 @@ and
 
 $$SE_{\bar{y}} = \sum(y - \bar{y})^2$$
 
-
-
+The accuracy of the model was consitent and evaluated to **93% - 94%** on average. 
 
 
 
