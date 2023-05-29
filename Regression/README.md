@@ -1,5 +1,3 @@
-## Linear Regression: 
-
 <!--
 *** Markdown
 *** coding: utf-8
@@ -8,6 +6,8 @@
 *** Last Modified time: 05-29-2023
 *** Last Modified by: Malek Kchaou 
  -->
+
+## Linear Regression: 
 
 In this folder, there are two main source code files:
   * StockPrediction.py
