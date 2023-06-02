@@ -71,8 +71,8 @@ class Support_Vector_Machine:
                 print('Optimized a step')
             else:
                 w = w - step
-                
-        nomrs = sorted([n for n in opt_dict])
+
+        norms = sorted([n for n in opt_dict])
         opt_choice =opt_dict[norms[0]] 
         self.w = opt_choice[0]
         self.b = opt_choice[1]
@@ -86,7 +86,7 @@ class Support_Vector_Machine:
 data_dict = {-1:np.array([[1,7], 
                          [2,8],
                          [3,8]]),
-             1:np.array([5,1],
+             1:np.array([[5,1],
                         [6,-1],
-                        [7,3])}
+                        [7,3]])}
  
