@@ -1,3 +1,5 @@
+### Still work in progress
+
 SVM is a binary classifier 
 It seperates only into two groups at a time 
 The goal of an SVM is to find the best separating hyperplane. 
