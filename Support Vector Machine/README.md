@@ -1,4 +1,4 @@
-### Still work in progress
+# Still work in progress
 
 SVM is a binary classifier 
 It seperates only into two groups at a time 
