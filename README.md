@@ -9,7 +9,4 @@ This personal repository contains python codes for common Machine Learning algor
   - K Nearest Neighbors:
       - Application to Breast Cancer Classification 
       - The K Nearest Neighbors Algorithm 
-  - Support Vector Machine:
-      - Application to Breast Cancer Classification 
-      - The SVM Algorithm 
       
