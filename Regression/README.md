@@ -65,7 +65,7 @@ We used numpy's **model_selection.train_test_split()** function to divide the da
 **clf.score()** was used to get the model's **accuracy**. 
 --> over the span of 25 simulations, the average accuracy was **88%**.
 
-### Predictiions:
+### Predictions:
 
 Predictions were made based on features dating from **11-11-2016 to 10-18-2017** (11-10-2016 + 343 days) and predictions were made for the dates ranging between **10-20-2017 to 09-26-2018**
 
