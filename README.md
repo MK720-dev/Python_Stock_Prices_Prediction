@@ -43,7 +43,7 @@ I decided to predict 1% of the entire dataframe and for that I calculated the co
 ```
 forecast_out = int(math.ceil(0.1*len(df)))
 ```
-forecast_out evaluated to 343 days --> **algorithm will predict Stock prices for almost a year ahead (11,2767 months)**
+forecast_out evaluated to 343 days --> **algorithm will predict Stock prices for almost a year ahead (11.2767 months)**
 
 I chose the Adjusted Close price **'Adj. Close'**, the High Low Percentage **'HL_PCT'**, the Percentage of Change **'PCT_change'** and the Adjusted Volume **'Adj. Volume'** to be the features of the linear regression model. 
 As for the the labels that were used to train the model, I went for the Adjusted Close price 'Adj. Close' in 343 days. 
