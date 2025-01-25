@@ -9,7 +9,7 @@
 
 ## Linear Regression: 
 
-In this folder, there are two main source code files:
+In the **regression** folder, there are two main source code files:
   * StockPrediction.py
   * LinearRegressionAlgorithm.py
 
