@@ -7,7 +7,10 @@
 *** Last Modified by: Malek Kchaou 
 -->
 
-## Linear Regression: 
+## Google Stock Prices Prediction using Linear Regression: 
+
+![](https://img.shields.io/badge/Author-Malek%20Kchaou-yellow.svg) ![](https://img.shields.io/github/license/MK720-dev/Machine-Learning-with-Python-Concepts-and-Applications) ![](https://img.shields.io/badge/Python-%3E%3D3.10.11-blue.svg)
+
 
 In the **regression** folder, there are two main source code files:
   * StockPrediction.py
