@@ -76,7 +76,7 @@ Here's the final plot of the Adjusted Close prices (feature), label and the fore
 
 ![final_plot](https://github.com/MK720-dev/Machine-Learning-with-Python-Concepts-and-Applications/blob/main/Regression/Images/final_plot.png)
 
-**Important:** note that label and forecast graphs are squished back by 343 days
+**Important:** note that label and forecast graphs are shifted back by 343 days
 
 ---
 
